@@ -6,10 +6,8 @@ from typing import List, Dict, TypedDict
 from collections import defaultdict, Counter
 from config.typing import *
 
-# from eval.execution import normalize_result
 import random
 
-# from eval.execution import execute_inputgen_prog
 from tqdm import tqdm
 import logging
 
