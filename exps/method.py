@@ -291,7 +291,6 @@ if __name__ == "__main__":
     ppl_mismatch_list = []
     # print(results)
     print("Number of problems: ", len(results))
-    # results = [results[args.dataind]] if args.dataind >= 0 else results
 
     for i, sample in enumerate(results):
         print(f"[{i}/{len(results)-1}]{'-'*10}", flush=True)
