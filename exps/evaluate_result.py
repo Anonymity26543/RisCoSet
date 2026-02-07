@@ -68,7 +68,7 @@ if __name__ == "__main__":
     n = int(len(data) / len(map_tau_to_frac_rm))
     n_calib = int(n * calib_ratio)
 
-    # map data to e space
+    # map data to alpha space
     alpha = np.linspace(0.05, 0.25, num = 5).tolist()
     print("alpha: ", alpha)
     target_coverage = []
